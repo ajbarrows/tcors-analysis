@@ -1,0 +1,17 @@
+### macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+
+
+# ignore everything in the following folders
+data/**
+logs/**
+
+# except their sub-folders
+!data/**/
+!logs/**/
+
+# also keep all .gitkeep files
+!.gitkeep
